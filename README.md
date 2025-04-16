@@ -10,29 +10,19 @@ This project analyzes motor vehicle collisions in New York City using a data eng
 - **AWS**: EC2 (compute), S3 (storage), RDS (MySQL database)
 
 ## Key Questions Answered
-1. Which NYC borough has the highest fatality rate?
-2. What are the most common contributing factors to severe collisions?
-3. How does accident frequency vary by time of day?
-4. Which vehicle types are most often involved in injuries?
-
-
-## How to Reproduce
-1. Clone the repo:
-   git clone https://github.com/your-username/nyc-motor-vehicle-collisions
-
-2. [Optional] Launch EC2 instance and run `python_preprocessing.ipynb`  
-   This downloads the CSV from S3 and processes it
-
-3. Run SQL scripts in MySQL or RDS:
-   - `borough_fatalities.sql`
-   - `top_contributing_factors.sql`
-
-4. Open `NYC Motor Vehicle Collision.R` for statistical findings (e.g., ANOVA, regression)
+1.	Which NYC borough has the highest fatality rate in motor vehicle accidents, and what are the leading contributing factors to these accidents?
+2.	What is the relationship between the time of day and the frequency of accidents across boroughs?
+3.	Which types of vehicles are most frequently involved in accidents, and how do these patterns differ by borough?
 
 ## Sample Insight
-> Bronx had the highest per capita fatality rate.  
-> Nighttime accidents (10PM–2AM) showed elevated fatality rates, especially on weekends.  
-> SUVs and taxis showed a higher proportion of injury-causing incidents than sedans.
+> Staten Island has the highest fatality rate per accident, despite having the lowest total number of collisions. This suggests a higher severity of accidents on average, warranting borough-specific safety interventions.
+> Brooklyn and Queens reported the highest total number of traffic fatalities, while "Driver Inattention/Distraction" and "Failure to Yield Right-of-Way" were identified as the leading contributing factors to fatal crashes.
+> Peak accident times align with daily commuting patterns, specifically between 8–9 AM and 4–7 PM. Manhattan, Brooklyn, and Queens showed the highest collision frequency during these rush hours.
+> Passenger vehicles are the most commonly involved vehicle type in accidents across all boroughs, followed by SUVs and taxis. ZIP code–level analysis revealed accident hotspots like:
+   11207 (Brooklyn) for passenger vehicle accidents
+   10016 (Manhattan) for taxi-related incidents
+   11101 (Queens) for SUV/station wagon collisions
+> Data-driven suggestions include targeted traffic enforcement, borough-specific safety policies, and time-specific traffic control to reduce fatalities and improve commuter safety.
 
 ## Future Work
 - Automate ingestion with Apache Airflow or Lambda
