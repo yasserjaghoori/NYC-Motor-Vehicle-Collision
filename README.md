@@ -19,9 +19,9 @@ This project analyzes motor vehicle collisions in New York City using a data eng
 - Brooklyn and Queens reported the highest total number of traffic fatalities, while "Driver Inattention/Distraction" and "Failure to Yield Right-of-Way" were identified as the leading contributing factors to fatal crashes.
 - Peak accident times align with daily commuting patterns, specifically between 8–9 AM and 4–7 PM. Manhattan, Brooklyn, and Queens showed the highest collision frequency during these rush hours.
 - Passenger vehicles are the most commonly involved vehicle type in accidents across all boroughs, followed by SUVs and taxis. ZIP code–level analysis revealed accident hotspots like:
-   11207 (Brooklyn) for passenger vehicle accidents
-   10016 (Manhattan) for taxi-related incidents
-   11101 (Queens) for SUV/station wagon collisions
+   - 11207 (Brooklyn) for passenger vehicle accidents
+   - 10016 (Manhattan) for taxi-related incidents
+   - 11101 (Queens) for SUV/station wagon collisions
 - Data-driven suggestions include targeted traffic enforcement, borough-specific safety policies, and time-specific traffic control to reduce fatalities and improve commuter safety.
 
 ## Future Work
