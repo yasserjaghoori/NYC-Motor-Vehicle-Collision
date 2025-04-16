@@ -1,4 +1,4 @@
-# NYC Motor Vehicle Collisions 
+# 🚙 NYC Motor Vehicle Collisions 
 
 ## Overview
 This project analyzes motor vehicle collisions in New York City using a data engineering pipeline that combines Python, R, SQL, and AWS services. The focus is on identifying borough-level trends in fatality rates, time-of-day patterns, and vehicle types most involved in injuries.
